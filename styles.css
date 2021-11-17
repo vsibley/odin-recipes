@@ -1,22 +1,42 @@
 body {
   background-color: rgb(60, 109, 140);
   border: lightsteelblue solid 3px;
-  margin: 80px;
-  padding: 110px;
+  margin: 10px 60px;
+  padding: 10px 110px;
 }
 
 h1 {
   text-align: center;
   font-family: fantasy, cooperplate, papyrus;
-  color: bisque;
+  color: lightsteelblue;
+  font-size: 60px;
 }
 
 h2 {
-
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
 }
 
-img {
+#sheetpan {
   border-radius: 35px;
   padding: 20px;
   width: 400px;
+}
+
+#slowcook {
+    border-radius: 35px;
+    padding: 20px;
+    width: 400px;
+  }
+  
+#chickentort{
+    border-radius: 35px;
+    padding: 20px;
+    width: 400px;
+  }
+  
+  img {
+    width: 800px;
+    margin-left: calc(50% - 800px / 2)
 }
