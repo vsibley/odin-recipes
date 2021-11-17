@@ -1,13 +1,22 @@
 body {
   background-color: rgb(60, 109, 140);
   border: lightsteelblue solid 3px;
+  margin: 80px;
+  padding: 110px;
 }
+
 h1 {
   text-align: center;
   font-family: fantasy, cooperplate, papyrus;
+  color: bisque;
 }
-#sheetpan {
-  border-radius: 25px;
+
+h2 {
+
+}
+
+img {
+  border-radius: 35px;
   padding: 20px;
   width: 400px;
 }
