@@ -12,11 +12,18 @@ h1 {
   font-size: 60px;
 }
 
-h2 {
+h2, h3 {
+    text-align: left;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+#indexh2 {
     text-align: center;
     font-family: monospace;
-    font-size: 20px;
+    font-size: 25px;
 }
+/* } add h3 and give h1 index id selector */
 
 #sheetpan {
   border-radius: 35px;
@@ -36,7 +43,4 @@ h2 {
     width: 400px;
   }
   
-  img {
-    width: 800px;
-    margin-left: calc(50% - 800px / 2)
-}
+
